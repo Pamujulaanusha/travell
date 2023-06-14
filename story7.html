@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <style>
+h2{
+    font-family: Sans-serif; 
+    font-size: 24px;     
+    font-style: normal; 
+    font-weight: bold; 
+    color: blue;
+    text-align: center; 
+    text-decoration: underline
+   }
+   table{
+    font-family: verdana; 
+    color:white; 
+    font-size: 16px; 
+    font-style: normal;
+    font-weight: bold;
+    background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);  
+    border-collapse: collapse; 
+    border: 4px solid #000000;
+    border-style: dashed;
+     
+   }
+   table.inner{
+    border: 10px
+   }
+   input[type=text], input[type=email], input[type=number]{
+    width: 50%;
+    padding: 6px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+   input[type=submit]{
+    width: 15%;
+    background-color: rgb(22, 204, 22);
+    padding: 8px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+   input[type=reset]{
+    width: 15%;
+    background-color: rgb(233, 28, 66);
+    padding: 8px 12px;
+    margin: 5px 0;
+    box-sizing: border-box;
+   }
+</style>
+   </head>
+   <body>
+    <form action="Login.html">
+   <h2>Book your ticket here</h3>
+   <table align="center" cellpadding = "10">
+   <tr>
+   <td>First Name</td>
+   <td><input type="text" name="FirstName" maxlength="50" placeholder="" />
+   </td>
+   </tr>
+   <tr>
+   <td>Last Name</td>
+   <td><input type="text" name="LastName" maxlength="50" placeholder=""/>
+   </td>
+   </tr>
+   <tr>
+   <td>Email ID</td>
+   <td><input type="email" name="EmailID" maxlength="100" placeholder=""/></td>
+   </tr>
+   <tr>
+   <td>Mobile Number</td>
+   <td>
+   <input type="text" name="MobileNumber" maxlength="10" placeholder=""
+   </td>
+   </tr>
+   <tr>
+   <td>Gender</td>
+   <td>
+   <input type="radio" name="Gender" value="Male" />
+   Male
+   <input type="radio" name="Gender" value="Female" />
+   Female
+   </td>
+   </tr>
+   <tr>
+    <td>Address<br /><br /><br /></td>
+   <td><textarea name="Address" rows="5" cols="50"></textarea></td>
+   </tr>
+   <tr>
+   <td>City</td>
+   <td><input type="text" name="City" maxlength="50" placeholder=""/>
+   </td>
+   </tr>
+   <tr>
+   <td>Pin Code</td>
+   <td><input type="Number" name="PinCode" maxlength="6" placeholder=""/>
+   </td>
+   </tr>
+   <tr>
+   <td>State</td>
+   <td><input type="text" name="State" maxlength="50" placeholder=""/>
+   </td>
+   </tr>
+   <tr>
+   <td>Country</td>
+   <td><input type="text" name="Country" placeholder="" /></td>
+   </tr>
+   <tr>
+    <tr>
+        <td colspan="2" align="center">
+            <center><button type="submit" value="submit"><a herf="Login.html">Submit</a></button></center>
+        </td>
+        </tr>
+    </form>
+</body>
+</html>

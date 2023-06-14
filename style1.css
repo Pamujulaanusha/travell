@@ -1,0 +1,40 @@
+Body{
+    text-align:center;
+}
+#OURCountries
+{
+    background-color:salmon;
+}
+    .grid{
+        text-align: center;
+        height:100%;
+        display:grid;
+        background-color:salmon;
+        grid-template-columns:auto auto auto;
+        padding:50px;
+        row-gap:10px;
+        column-gap: 40px;
+        justify-content:center;
+        border: saddlebrown;
+        background-image: linear-gradient(250deg,salmon,purple);
+
+    }
+    .grid-item{  
+        height:200px;
+        width:280px;
+        background-color:khaki;
+        border:1px solid black;
+        padding:30px;
+        text-align: center;
+        font-size: 12px;
+        border-radius: 3%;
+    }
+    .btn{
+        color:bisque;
+        background:#333;
+        padding:8px 15px;
+
+    }
+     .grid-item:hover{
+        scale: 1.1;
+     }
